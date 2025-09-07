@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-serper-search",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "n8n nodes for Serper Search API and subscription management",
   "keywords": [
     "api",
