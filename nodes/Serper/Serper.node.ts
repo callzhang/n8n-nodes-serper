@@ -4,6 +4,7 @@ import {
 	INodeType,
 	INodeTypeDescription,
 	NodeOperationError,
+	NodeConnectionType,
 } from 'n8n-workflow';
 
 export class Serper implements INodeType {
@@ -18,8 +19,8 @@ export class Serper implements INodeType {
 		defaults: {
 			name: 'Serper',
 		},
-		inputs: ['main'],
-		outputs: ['main'],
+		inputs: [NodeConnectionType.Main],
+		outputs: [NodeConnectionType.Main],
 		credentials: [
 			{
 				name: 'serperApi',
@@ -187,7 +188,7 @@ export class Serper implements INodeType {
 			} catch (error) {
 				if (this.continueOnFail()) {
 					returnData.push({
-						json: { error: error.message },
+						json: { error: (error as Error).message },
 						pairedItem: { item: i },
 					});
 				} else {

@@ -20,7 +20,9 @@
 		"typeRoots": ["./node_modules/@types"],
 		"outDir": "./dist",
 		"rootDir": "./",
-		"resolveJsonModule": true
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true
 	},
 	"include": [
 		"**/*.ts"
