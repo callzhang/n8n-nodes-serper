@@ -1,7 +1,7 @@
 {
   "name": "n8n-nodes-serper-search",
   "version": "1.1.1",
-  "description": "A n8n node for the Serper Search API",
+  "description": "n8n nodes for Serper Search API and subscription management",
   "keywords": [
     "api",
     "search",
@@ -9,6 +9,11 @@
     "serper api",
     "google search",
     "web search",
+    "unsubscribe",
+    "subscription",
+    "email",
+    "sms",
+    "notifications",
     "n8n-community-node-package"
   ],
   "license": "MIT",
@@ -42,7 +47,8 @@
       "dist/credentials/SerperApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/Serper/Serper.node.js"
+      "dist/nodes/Serper/Serper.node.js",
+      "dist/nodes/Unsubscribe/Unsubscribe.node.js"
     ]
   },
   "devDependencies": {
