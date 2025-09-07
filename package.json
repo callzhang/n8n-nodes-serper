@@ -1,14 +1,15 @@
 {
   "name": "@callzhang/n8n-nodes-serper",
   "version": "1.0.0",
-  "description": "n8n custom node for Serper web search API",
+  "description": "A n8n node for the Serper Search API",
   "keywords": [
-    "n8n-community-node-package",
-    "n8n",
-    "serper",
+    "api",
     "search",
-    "web-search",
-    "ai-agent"
+    "serper",
+    "serper api",
+    "google search",
+    "web search",
+    "n8n-community-node-package"
   ],
   "license": "MIT",
   "homepage": "https://github.com/callzhang/n8n-nodes-serper",
