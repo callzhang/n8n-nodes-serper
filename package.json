@@ -1,5 +1,5 @@
 {
-  "name": "n8n-nodes-serper",
+  "name": "@callzhang/n8n-nodes-serper",
   "version": "1.0.0",
   "description": "n8n custom node for Serper web search API",
   "keywords": [
@@ -11,14 +11,14 @@
     "ai-agent"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/derek/n8n-nodes-serper",
+  "homepage": "https://github.com/callzhang/n8n-nodes-serper",
   "author": {
-    "name": "Derek",
-    "email": "derek@example.com"
+    "name": "callzhang",
+    "email": "callzhang@example.com"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/derek/n8n-nodes-serper.git"
+    "url": "git+https://github.com/callzhang/n8n-nodes-serper.git"
   },
   "main": "index.js",
   "scripts": {
