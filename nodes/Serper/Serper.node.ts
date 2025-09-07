@@ -11,7 +11,7 @@ export class Serper implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Serper',
 		name: 'serper',
-		icon: 'file:serper.svg',
+		icon: 'file:serper.png',
 		group: ['transform'],
 		version: 1,
 		subtitle: '={{$parameter["operation"] + ": " + $parameter["query"]}}',
