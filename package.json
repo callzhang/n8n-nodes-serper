@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-serper",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A n8n node for the Serper Search API",
   "keywords": [
     "api",
