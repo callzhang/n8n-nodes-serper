@@ -1,5 +1,5 @@
 {
-  "name": "@callzhang/n8n-nodes-serper",
+  "name": "n8n-nodes-serper",
   "version": "1.0.1",
   "description": "A n8n node for the Serper Search API",
   "keywords": [
